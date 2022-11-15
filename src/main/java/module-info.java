@@ -10,5 +10,6 @@ module sr.sis.sisadmin {
     requires com.almasb.fxgl.all;
 
     opens sr.sis.sisadmin to javafx.fxml;
+    opens sr.sis.sisadmin.controller to javafx.fxml;
     exports sr.sis.sisadmin;
 }
